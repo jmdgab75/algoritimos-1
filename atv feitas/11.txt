@@ -1,0 +1,13 @@
+// Variável para armazenar o número atual
+let numero = 1;
+
+// Laço while para encontrar o menor número divisível por 2, 3 e 5
+while (true) {
+  if (numero % 2 === 0 && numero % 3 === 0 && numero % 5 === 0) {
+    break;
+  }
+  numero++;
+}
+
+// Imprimir o número encontrado
+console.log("O menor número divisível por 2, 3 e 5 é: " + numero);

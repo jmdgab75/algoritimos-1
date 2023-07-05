@@ -1,0 +1,16 @@
+// Solicitar a quantidade de notas ao usuário
+const quantidadeNotas = parseInt(prompt("Digite a quantidade de notas:"));
+
+let somaNotas = 0;
+
+// Solicitar as notas e calcular a soma
+for (let i = 1; i <= quantidadeNotas; i++) {
+  const nota = parseFloat(prompt("Digite a nota " + i + ":"));
+  somaNotas += nota;
+}
+
+// Calcular a média aritmética
+const media = somaNotas / quantidadeNotas;
+
+// Exibir a média aritmética das notas
+console.log("A média das notas é: " + media.toFixed(2));
