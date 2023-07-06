@@ -1,7 +1,5 @@
-// Array de exemplo
 const array = ["a", "b", "c", "d"];
 
-// Iterar sobre os elementos do array com suas posições usando for...of com indexação
 for (let [indice, elemento] of array.entries()) {
   console.log(`Posição ${indice}: ${elemento}`);
 }

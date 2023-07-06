@@ -1,15 +1,9 @@
-// Variável para armazenar o número atual
-let numero = 0;
 
-// Laço do...while para imprimir apenas os números pares de 1 a 10
+let numero = 0;
 do {
   numero++;
-
-  // Verificar se o número é ímpar
   if (numero % 2 !== 0) {
     continue;
   }
-
-  // Imprimir número par
   console.log(numero);
 } while (numero < 10);

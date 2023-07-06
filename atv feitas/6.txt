@@ -1,10 +1,7 @@
-// Array de exemplo
 const array = [1, 2, 3, 4, 5];
 
-// Função para imprimir os elementos do array
 function imprimirElemento(elemento) {
   console.log(elemento);
 }
 
-// Usando forEach para imprimir os elementos do array
 array.forEach(imprimirElemento);

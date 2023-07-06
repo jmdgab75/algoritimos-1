@@ -1,12 +1,8 @@
-// String de exemplo
 const texto = "Hello";
 
-// Iterar sobre os índices da string usando um for tradicional
 for (let i = 0; i < texto.length; i++) {
   console.log(i);
 }
-
-// Iterar sobre os índices da string usando for...of
 for (let indice of texto.keys()) {
   console.log(indice);
 }

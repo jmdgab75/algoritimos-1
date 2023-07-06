@@ -1,7 +1,4 @@
-// Variável para armazenar o número atual
 let numero = 1;
-
-// Laço while para imprimir os números de 1 a 10 pulando de 2 em 2
 while (numero <= 10) {
   console.log(numero);
   numero += 2;

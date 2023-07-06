@@ -1,7 +1,5 @@
-// String de exemplo
 const texto = "Exemplo de string";
 
-// Iterar sobre os caracteres da string usando for...of
 for (let caractere of texto) {
   console.log(caractere);
 }

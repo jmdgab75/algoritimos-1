@@ -1,0 +1,19 @@
+const caractere = prompt("Digite um caractere:");
+const caractereMin = caractere.toLowerCase();
+
+if (
+  caractereMin === "a" ||
+  caractereMin === "e" ||
+  caractereMin === "i" ||
+  caractereMin === "o" ||
+  caractereMin === "u"
+) {
+  console.log(caractere + " é uma vogal.");
+} else if (
+  (caractereMin >= "a" && caractereMin <= "z") ||
+  (caractereMin >= "A" && caractereMin <= "Z")
+) {
+  console.log(caractere + " é uma consoante.");
+} else {
+  console.log(caractere + " não é uma letra.");
+}

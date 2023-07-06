@@ -1,7 +1,5 @@
-// Array de exemplo
 const array = ["a", "b", "c", "d"];
 
-// Iterar sobre os índices do array usando for...in
 for (let indice in array) {
   console.log(indice);
 }

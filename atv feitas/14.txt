@@ -1,11 +1,6 @@
 let sair = false;
 
 do {
-  // Realize aqui as ações que deseja repetir
-
-  // Perguntar ao usuário se deseja sair
   const confirmacao = confirm("Deseja sair?");
-
-  // Atualizar a variável "sair" baseado na confirmação do usuário
   sair = confirmacao;
 } while (!sair);
