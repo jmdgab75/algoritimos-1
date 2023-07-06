@@ -1,7 +1,18 @@
-const numero = parseInt(prompt("Digite um número:"));
+let numero = parseInt(prompt("Digite um número inteiro e positivo"));
+let ehprimo = true;
 
-if (numero % 3 === 0 && numero % 5 === 0) {
-  console.log(numero + " é divisível por 3 e 5 ao mesmo tempo.");
+if (numero === 1) {
+    ehprimo = false;
+} else if (numero > 1) {
+    for (let i = 2; i < numero; i ++)
+    if (numero % i === 0) {
+       ehprimo = false;
+       break;
+    }
+}
+
+if (ehprimo) {
+    console.log(numero + " é um número primo");
 } else {
-  console.log(numero + " não é divisível por 3 e 5 ao mesmo tempo.");
+    console.log(numero + " não é um número primo");
 }

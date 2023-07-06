@@ -11,8 +11,8 @@ while (!acertou) {
     acertou = true;
     alert(`Parabéns! Você acertou o número em ${tentativas} tentativas.`);
   } else if (palpite < numeroAleatorio) {
-    alert("O número correto é maior. Tente novamente.");
+    alert("Tente um número maior");
   } else {
-    alert("O número correto é menor. Tente novamente.");
+    alert("Tente um número menor");
   }
 }
