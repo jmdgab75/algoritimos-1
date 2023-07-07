@@ -1,7 +1,7 @@
 let numero = 5;
 
-if (numero > 0) {  // quando a condição é verdadeira
+if (numero > 0) {  
     console.log('É positivo');
-} else {   // quando a condição é falsa
+} else {   
     console.log('É negativo');
 }
